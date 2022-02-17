@@ -1,0 +1,76 @@
+.logo{
+    width: 70px;
+    margin-top: -5px;
+}
+button:hover{
+    display: block;
+    border-radius: 50%;
+    background-color: rgba(214, 213, 213, 0.918);
+}
+.sidebar{
+    gap: 5px;
+}
+.home{
+    width: 30px;
+    margin-left: 5px;
+}
+.explore{
+    width: 30px;
+    margin-left: 20px;
+}
+.bell{
+    margin-top: -10px;
+    width: 30px;
+}
+.message{
+    width: 30px;
+}
+.profile{
+    width: 40px;
+}
+.more{
+    width: 30px;
+}
+.tweet{
+    width: 60px;
+}
+.v1{
+    border-right: 1px solid gainsboro;
+    height: 600px;
+}
+.topTweets{
+    width: 30px;
+    height: 30px;
+    margin-left: 300px;
+    margin-top: 15px;
+}
+.Home{
+    background-color: white;
+}
+.profPicture{
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.whatsHappening{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.form{
+    width: 300px;
+    height: 50px;
+    font-family: Helvetica, sans-serif;
+    font-size: larger;
+}
+.reply{
+    font-size:small;
+    font-weight: bold;
+    color: rgb(0, 183, 255);
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.globe{
+    width: 20px;
+    margin-left: 30px;
+}

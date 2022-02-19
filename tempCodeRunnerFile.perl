@@ -1,0 +1,2 @@
+$dna = <STDIN>;
+chomp $dna;

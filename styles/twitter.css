@@ -1,3 +1,18 @@
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+  
+.dark-mode {
+    filter: invert(1) hue-rotate(180deg);
+    background: rgb(26, 38, 51);
+}
+.invert{
+    filter: invert(1) hue-rotate(180deg);
+    background: rgb(26, 38, 51);
+}
 .logo{
     width: 70px;
     margin-top: -5px;
@@ -6,6 +21,26 @@ button:hover{
     display: block;
     border-radius: 50%;
     background-color: rgba(214, 213, 213, 0.918);
+}
+.comment:hover{
+    display: block;
+    border-radius: 50%;
+    background-color: rgba(108, 176, 253, 0.562);
+}
+.re:hover{
+    display: block;
+    border-radius: 50%;
+    background-color: rgba(92, 243, 124, 0.562);
+}
+.like:hover{
+    display: block;
+    border-radius: 50%;
+    background-color: rgba(204, 70, 137, 0.562);
+}
+.share:hover{
+    display: block;
+    border-radius: 50%;
+    background-color: rgba(92, 163, 243, 0.562);
 }
 .sidebar{
     gap: 5px;
@@ -16,7 +51,7 @@ button:hover{
 }
 .explore{
     width: 30px;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 .bell{
     margin-top: -10px;
@@ -139,4 +174,4 @@ button:hover{
     font-family: inherit;
     font-weight: bolder;
     margin-top: 5px;
-}
+} 

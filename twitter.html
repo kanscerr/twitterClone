@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-1 col-md-1 col-sm-2">
-                    <div class="d-flex flex-row" style="position:-webkit-sticky; position:sticky; top:0;">
+                    <div class="d-flex flex-row" style="position:fixed;">
                         <div class="d-flex flex-column sidebar">
                             <button class="btn btn-hover"><img class="logo" src="images/twitterLogo.png" alt="logo"></button>
                             <button class="btn btn-hover"><img class="home" id="home" src="images/home.png" alt="home"></button>
@@ -22,7 +22,7 @@
                             <button class="btn btn-hover"><img class="message" id="message" src="images/message.png" alt="message"></button>
                             <button class="btn btn-hover"><img class="profile" id="profile" src="images/profile.png" alt="profile"></button>
                             <button class="btn btn-hover"><img class="more" id="more" src="images/more.png" alt="more"></button>
-                            <button onclick="darkMode()" class="btn btn-hover border" style="margin-right: 10px; height:50px; width: 93px;"><h6>Light/Dark</h6></button>
+                            <button onclick="darkMode()" class="btn btn-hover" style="margin-left:13px; height:50px; width: 70px;"><img style="width: 25px;" src="../images/darkMode.png"></button>
                             <button class="btn btn-hover"><img class="tweet" src="images/tweet.png" alt="tweet"></button>
                         </div> 
                         <div class="v1"></div> 
@@ -51,16 +51,16 @@
                             </button>
                             <hr style="margin-left: 80px; margin-right: 20px;">
                             <div class="d-flex flex-row">
-                                <button class="btn" style="margin-left:50px"><img style="width:30px" src="images/one.png" alt=""></button>
-                                <button class="btn" style="margin-left:-20px"><img style="width:30px" src="images/two.png" alt=""></button>
-                                <button class="btn" style="margin-left:-20px; margin-top: 5px;"><img style="width:30px" src="images/three.png" alt=""></button>
-                                <button class="btn" style="margin-left:-20px"><img style="width:30px" src="images/four.png" alt=""></button>
-                                <button class="btn" style="margin-left:-20px"><img style="width:30px" src="images/fifth.png" alt=""></button>
-                                <button class="btn" style="margin-left:-20px"><img style="width:30px" src="images/sixth.png" alt=""></button>
+                                <button class="btn" style="margin-left:50px"><img class="tinyButtons" style="width:30px" src="images/one.png" alt=""></button>
+                                <button class="btn" style="margin-left:-20px"><img class="tinyButtons" style="width:30px" src="images/two.png" alt=""></button>
+                                <button class="btn" style="margin-left:-20px; margin-top: 5px;"><img class="tinyButtons" style="width:30px" src="images/three.png" alt=""></button>
+                                <button class="btn" style="margin-left:-20px"><img class="tinyButtons" style="width:30px" src="images/four.png" alt=""></button>
+                                <button class="btn" style="margin-left:-20px"><img class="tinyButtons" style="width:30px" src="images/fifth.png" alt=""></button>
+                                <button class="btn" style="margin-left:-20px"><img class="tinyButtons" style="width:30px" src="images/sixth.png" alt=""></button>
                                 <button class="btn" style="height: 40px; width: 80px; background: rgb(78, 148, 253); color: white; border-radius: 20px; margin-left: 250px">Tweet</button>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card" style="border: 1px solid rgb(236, 235, 235)">
                             <div class="content">
                                 <div class="d-flex flex-row tweet1" style="margin-left: 30px; margin-top: 10px;">
                                     <img class="retweet" src="images/retweet.png" alt="">
@@ -98,7 +98,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card" style="border: 1px solid rgb(236, 235, 235)">
                             <div class="content">
                                 <div class="d-flex flex-row" style="margin-top:15px;">
                                     <img class="profileT inverted" src="images/profT3.jpg" alt="person">
@@ -108,7 +108,7 @@
                                             <h6 class="username">&ensp;@Iyervval&ensp;<b>•</b>  2h</h6>
                                         </div>
                                         <h6 class="writeup">Wordle 255 5/6.</h6>
-                                        <h6 class="writeup">
+                                        <h6 class="inverted writeup" style="background-color:transparent">
                                             ⬜🟨⬜⬜⬜<br>
                                             ⬜⬜⬜⬜🟨<br>
                                             ⬜🟨⬜⬜🟨<br>
@@ -125,7 +125,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card" style="border: 1px solid rgb(236, 235, 235)">
                             <div class="content">
                                 <div class="d-flex flex-row tweet1" style="margin-left: 30px; margin-top: 10px;">
                                     <img class="retweet" src="images/socialMedia.png" alt="">
@@ -159,7 +159,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card" style="border: 1px solid rgb(236, 235, 235)">
                             <div class="content">
                                 <div class="d-flex flex-row" style="padding-top:15px">
                                     <img class="profileT inverted" src="images/profT5.jpg" alt="person">
@@ -174,7 +174,7 @@
                                 <div class="content" style="margin-left:50px">
                                     <a style="text-decoration: none;" href="https://jointoucan.com/">
                                         <div class="card" style="border-radius: 20px; margin-right:20px; margin-bottom: 20px">
-                                            <img src="images/toucan.jpg" style="border-top-left-radius:20px; border-top-right-radius:20px">
+                                            <img class="inverted" src="images/toucan.jpg" style="border-top-left-radius:20px; border-top-right-radius:20px">
                                             <h6 class="text-muted" style="font-size:small; padding-top: 10px; margin-left:10px">jointoucan.com</h6>
                                             <h6 class="text-muted" style="margin-left:10px; padding-bottom: 10px; font-size: small;">Toucan- Learn as you go.</h6>
                                         </div>
@@ -188,7 +188,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card" style="border: 1px solid rgb(236, 235, 235)">
                             <div class="content">
                                 <div class="d-flex flex-row" style="padding-top:15px">
                                     <img class="profileT inverted" src="images/profT6.jpg" alt="person">
@@ -246,9 +246,9 @@
                         <nav class="navbar">
                             <input class="form-control mr-sm-2 border-0" type="search" placeholder="Search Twitter" aria-label="Search" style="border-radius: 20px; padding: 20px; height: 30px; margin-left: -10px; background-color: rgb(239, 243, 244);"></form>
                         </nav>
-                        <div class="card">
-                            <div class="card-header">What's happening</div>
-                            <div class="card-body">
+                        <div class="card border-0">
+                            <div class="card-header border-0">What's happening</div>
+                            <div class="card-body" style="background: rgb(247, 249, 249);">
                                 <table class="table-hover">
                                     <tr>
                                         <td>
@@ -259,7 +259,7 @@
                                                         <h6 class="newstext">INDvWI: India beat the West Indies by 8 runs in the second T20 match</h6>
                                                         <h6 class="text-muted" style="font-weight:400; font-size: small;">Trending with <b style="font-weight:400; font-size: small; color:rgb(0, 140, 255)">#ViratKohli, #INDvWI</b></h6>
                                                     </div>
-                                                    <div><img src="images/newsT1.jpg" style="width:65px; height:65px; border-radius:10px"></div>
+                                                    <div><img class="inverted" src="images/newsT1.jpg" style="width:65px; height:65px; border-radius:10px"></div>
                                                 </div>
                                             </div>
                                         </td>
@@ -313,7 +313,7 @@
                                                         <h6 class="text-muted" style="font-size:smaller">World news • LIVE</h6>
                                                         <h6 class="newstext">Ukraine rebel leader announces 'general mobilization' in Donetsk region amid increased invasion fears</h6>
                                                     </div>
-                                                    <div><img src="images/newsT2.jpg" style="width:65px; height:65px; border-radius:10px"></div>
+                                                    <div><img class="inverted" src="images/newsT2.jpg" style="width:65px; height:65px; border-radius:10px"></div>
                                                 </div>
                                             </div>
                                         </td>
@@ -328,8 +328,8 @@
                                 </table>
                             </div>
                         </div>
-                        <div class="card" style="margin-top:20px">
-                            <div class="card-header">Who to follow</div>
+                        <div class="card border-0" style="margin-top:20px; background: rgb(247, 249, 249);">
+                            <div class="card-header border-0">Who to follow</div>
                             <div class="card-body">
                                 <table class="table-hover">
                                     <tr>

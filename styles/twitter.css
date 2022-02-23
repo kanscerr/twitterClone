@@ -159,9 +159,6 @@ body {
     width: 0;
     height: 100%;
 }
-.hr{
-    border: 5px solid black;
-}
 .thread{
     font-family: Helvetica, sans-serif;
     font-size: 0.9rem;

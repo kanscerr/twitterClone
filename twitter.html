@@ -11,10 +11,10 @@
     </head>
     <body>
         <div class="bottomBar">
-            <button class="btn"><img src="images/home.png" style="margin-left: 10px; width: 30px; height: 30px;"></button>
-            <button class="btn"><img src="images/search.png" style="width: 30px; height: 30px;"></button>
-            <button class="btn"><img src="images/bell.png" style="width: 30px; height: 30px;"></button>
-            <button onclick="darkMode()" class="btn btn-hover" style="margin-left:13px; margin-top: -5px; height:50px; width: 70px;"><img style="width: 25px;" src="images/darkMode.png"></button>
+            <button class="btn"><img src="images/home.png" alt="home" style="margin-left: 10px; width: 30px; height: 30px;"></button>
+            <button class="btn"><img src="images/search.png" alt="search" style="width: 30px; height: 30px;"></button>
+            <button class="btn"><img src="images/bell.png" alt="notification" style="width: 30px; height: 30px;"></button>
+            <button onclick="darkMode()" class="btn btn-hover" style="margin-left:13px; margin-top: -5px; height:50px; width: 70px;"><img style="width: 25px;" alt="dark mode" src="images/darkMode.png"></button>
         </div>
         <div class="container-fluid">
             <div class="row">
@@ -23,14 +23,14 @@
                         <div class="d-flex flex-column sidebar">
                             <button class="btn "><img class="logo" src="images/twitterLogo.png" alt="logo"></button>
                             <button class="btn"><img class="home" id="home" src="images/home.png" alt="home"></button>
-                            <button class="btn "><h2 class="explore" id="explore">#</h2></button>
+                            <button class="btn" id="explore" style="font-size:36px;">#</button>
                             <button class="btn "><img class="bell" id="bell" src="images/bell.png" alt="notification"></button>
                             <button class="btn "><img class="message" id="message" src="images/message.png" alt="message"></button>
                             <button class="btn "><img class="profile" id="profile" src="images/profile.png" alt="profile"></button>
                             <button class="btn "><img class="more" id="more" src="images/more.png" alt="more"></button>
-                            <button onclick="darkMode()" class="btn btn-hover" style="margin-left:13px; height:50px; width: 70px;"><img style="width: 25px;" src="images/darkMode.png"></button>
+                            <button onclick="darkMode()" class="btn btn-hover" style="margin-left:13px; height:50px; width: 70px;"><img style="width: 25px;" src="images/darkMode.png" alt="dark mode"></button>
                             <button class="btn btn-hover"><img class="tweet" src="images/tweet.png" alt="tweet"></button>
-                            <button class="btn"><img class="inverted" style="margin-top: 130px; width:60px; border-radius: 50%;" src="images/swiper.jpg"></button>
+                            <button class="btn"><img class="inverted" style="margin-top: 130px; width:60px; border-radius: 50%;" src="images/swiper.jpg" alt="profile"></button>
                         </div>
                     </div>
                 </div>
@@ -50,18 +50,18 @@
                                         <input style="width:200px;" type="text" class="form border-0" placeholder="What's happening?">
                                     </form>
                                 </div>
-                                <button class="d-flex flex-row btn" style="width:200px; margin-left: 30px;">
+                                <button class="d-flex flex-row btn" style="font-size: small; font-weight: bold; color: rgb(0, 183, 255); width:200px; margin-left: 30px;">
                                     <img class="globe" src="images/globe.png" alt="img">
-                                    <h6 class="reply">Everyone can reply</h6>
+                                    Everyone can reply
                                 </button>
                                 <hr style="margin-left: 80px; margin-right: 20px;">
                                 <div class="d-flex flex-row">
-                                    <button class="btn" style="margin-left:50px"><img class="tinyButtons" style="width:30px" src="images/one.png" alt=""></button>
-                                    <button class="btn" style="margin-left:-20px"><img class="tinyButtons" style="width:30px" src="images/two.png" alt=""></button>
-                                    <button class="btn" style="margin-left:-20px; margin-top: 5px;"><img class="tinyButtons" style="width:30px" src="images/three.png" alt=""></button>
-                                    <button class="btn" style="margin-left:-20px"><img class="tinyButtons" style="width:30px" src="images/four.png" alt=""></button>
-                                    <button class="btn" style="margin-left:-20px"><img class="tinyButtons" style="width:30px" src="images/fifth.png" alt=""></button>
-                                    <button class="btn" style="margin-left:-20px"><img class="tinyButtons" style="width:30px" src="images/sixth.png" alt=""></button>
+                                    <button class="btn" style="margin-left:50px"><img class="tinyButtons" style="width:30px" src="images/one.png" alt="media"></button>
+                                    <button class="btn" style="margin-left:-20px"><img class="tinyButtons" style="width:30px" src="images/two.png" alt="GIF"></button>
+                                    <button class="btn" style="margin-left:-20px; margin-top: 5px;"><img class="tinyButtons" style="width:30px" src="images/three.png" alt="pole"></button>
+                                    <button class="btn" style="margin-left:-20px"><img class="tinyButtons" style="width:30px" src="images/four.png" alt="emoji"></button>
+                                    <button class="btn" style="margin-left:-20px"><img class="tinyButtons" style="width:30px" src="images/fifth.png" alt="schedule"></button>
+                                    <button class="btn" style="margin-left:-20px"><img class="tinyButtons" style="width:30px" src="images/sixth.png" alt="location"></button>
                                     <button class="btn" style="position:absolute; height: 40px; width: 80px; background: rgb(78, 148, 253); color: white; border-radius: 20px; right: 0; margin-top: 5px;">Tweet</button>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@
                             <div class="card border-0" style="border-top: 1px solid rgb(236, 235, 235); margin-left: 20px;">
                                 <div class="content" style="margin-left: -2px;">
                                     <div class="d-flex flex-row tweet1" style="margin-left: 56px;">
-                                        <img class="retweet" src="images/retweet.png" alt="">
+                                        <img class="retweet" src="images/retweet.png" alt="retweet">
                                         <h6 style="font-family:helvetica, sans-serif; font-size:0.75rem; font-weight: bold; color: rgb(83, 100, 113); margin-top: 5px;">&ensp;&nbsp;Ankur Warikoo Retweeted</h6>
                                     </div>
                                     <div class="d-flex flex-row" style="margin-left: 25px;">
@@ -83,7 +83,7 @@
                                         </div>
                                     </div>
                                     <div class="content" style="margin-left: 70px">
-                                        <div class="card insidecard" style="border-radius: 20px; margin-left: 35px; margin-bottom: 20px; padding-left: -50px">
+                                        <div class="card insidecard" style="border-radius: 20px; margin-left: 35px; margin-bottom: 20px;">
                                             <div style="margin-left: -6px;">
                                                 <div class="d-flex flex-row" style="margin-left:20px; margin-top:10px">
                                                     <img class="profileT inverted" src="images/profT2.jpg" alt="person" style="width:25px; height: 25px;">
@@ -98,10 +98,10 @@
                                             </div>
                                         </div>
                                         <div class="d-flex flex-row" style="justify-content: space-around; margin-top: -20px; margin-left: -47px;">
-                                            <button class="btn btn-hover"><img class="active comment" src="images/comment.png" alt=""></button>
-                                            <button class="btn btn hover"><img class="active re" src="images/re.png" alt=""></button>
-                                            <button class="btn btn hover"><img class="active like" src="images/like.png" alt=""></button>
-                                            <button class="btn btn hover"><img class="active share" src="images/share.png" alt=""></button>
+                                            <button class="btn btn-hover"><img class="active comment" src="images/comment.png" alt="comment"></button>
+                                            <button class="btn btn hover"><img class="active re" src="images/re.png" alt="retweet"></button>
+                                            <button class="btn btn hover"><img class="active like" src="images/like.png" alt="like"></button>
+                                            <button class="btn btn hover"><img class="active share" src="images/share.png" alt="share"></button>
                                         </div>
                                     </div>
                                 </div>
@@ -127,17 +127,17 @@
                                         </div>
                                     </div>
                                     <div class="d-flex flex-row" style="justify-content: space-around; margin-top:10px; margin-left: 20px;">
-                                        <button class="btn btn-hover"><img class="active comment" src="images/comment.png" alt=""></button>
-                                        <button class="btn btn hover"><img class="active re" src="images/re.png" alt=""></button>
-                                        <button class="btn btn hover"><img class="active like" src="images/like.png" alt=""></button>
-                                        <button class="btn btn hover"><img class="active share" src="images/share.png" alt=""></button>
+                                        <button class="btn btn-hover"><img class="active comment" src="images/comment.png" alt="comment"></button>
+                                        <button class="btn btn hover"><img class="active re" src="images/re.png" alt="retweet"></button>
+                                        <button class="btn btn hover"><img class="active like" src="images/like.png" alt="like"></button>
+                                        <button class="btn btn hover"><img class="active share" src="images/share.png" alt="share"></button>
                                     </div>
                                 </div>
                             </div>
                             <div class="card border-bottom-0" style="border: 1px solid rgb(236, 235, 235)">
                                 <div class="content">
                                     <div class="d-flex flex-row tweet1" style="margin-left: 30px; margin-top: 10px;">
-                                        <img class="retweet" src="images/socialMedia.png" alt="">
+                                        <img class="retweet" src="images/socialMedia.png" alt="social media">
                                         <h6 style="font-family:helvetica, sans-serif; font-size:0.75rem; font-weight: bold; color: rgb(83, 100, 113); margin-top: 5px;">&ensp;&nbsp;Social Media</h6>
                                     </div>
                                     <div class="d-flex flex-row" style="margin-left: 10px;">
@@ -155,15 +155,15 @@
                                             <div class="d-flex flex-row">
                                                 <div style="color: white;"><h6><b>Today at 9:00 PM</b> • Ganesh Prasad</h6>
                                                     <h5><b>How to grow as a content creator doing long form content?</b></h5></div>
-                                                <img class="profileT inverted" src="images/profT4.jpg" style="border: 1px solid white">
+                                                <img class="profileT inverted" alt="profile picture" src="images/profT4.jpg" style="border: 1px solid white">
                                             </div>
-                                            <input onclick="buttonClick()" type="button" value="Set reminder" id="myButton" style="background-image: linear-gradient(to right, rgb(96, 96, 238), rgb(152, 18, 241)); border-radius: 20px; padding: 10px; color: white;"></input>
+                                            <input onclick="buttonClick()" type="button" value="Set reminder" id="myButton" style="background-image: linear-gradient(to right, rgb(96, 96, 238), rgb(152, 18, 241)); border-radius: 20px; padding: 10px; color: white;">
                                         </div>
                                         <div class="d-flex flex-row" style="justify-content: space-around; margin-top: -20px; margin-left: -50px;">
-                                            <button class="btn btn-hover"><img class="active comment" src="images/comment.png" alt=""></button>
-                                            <button class="btn btn hover"><img class="active re" src="images/re.png" alt=""></button>
-                                            <button class="btn btn hover"><img class="active like" src="images/like.png" alt=""></button>
-                                            <button class="btn btn hover"><img class="active share" src="images/share.png" alt=""></button>
+                                            <button class="btn btn-hover"><img class="active comment" src="images/comment.png" alt="comment"></button>
+                                            <button class="btn btn hover"><img class="active re" src="images/re.png" alt="retweet"></button>
+                                            <button class="btn btn hover"><img class="active like" src="images/like.png" alt="like"></button>
+                                            <button class="btn btn hover"><img class="active share" src="images/share.png" alt="share"></button>
                                         </div>
                                     </div>
                                 </div>
@@ -183,16 +183,16 @@
                                     <div class="content" style="margin-left:50px">
                                         <a style="text-decoration: none;" href="https://jointoucan.com/">
                                             <div class="card" style="border-radius: 20px; margin-right:20px; margin-bottom: 20px">
-                                                <img class="inverted" src="images/toucan.jpg" style="border-top-left-radius:20px; border-top-right-radius:20px">
+                                                <img class="inverted" alt="toucan website" src="images/toucan.jpg" style="border-top-left-radius:20px; border-top-right-radius:20px">
                                                 <h6 class="text-muted" style="font-size:small; padding-top: 10px; margin-left:10px">jointoucan.com</h6>
                                                 <h6 class="text-muted" style="margin-left:10px; padding-bottom: 10px; font-size: small;">Toucan- Learn as you go.</h6>
                                             </div>
                                         </a>
                                         <div class="d-flex flex-row" style="justify-content: space-around; margin-top: -20px; margin-left: -50px;">
-                                            <button class="btn btn-hover"><img class="active comment" src="images/comment.png" alt=""></button>
-                                            <button class="btn btn hover"><img class="active re" src="images/re.png" alt=""></button>
-                                            <button class="btn btn hover"><img class="active like" src="images/like.png" alt=""></button>
-                                            <button class="btn btn hover"><img class="active share" src="images/share.png" alt=""></button>
+                                            <button class="btn btn-hover"><img class="active comment" src="images/comment.png" alt="comment"></button>
+                                            <button class="btn btn hover"><img class="active re" src="images/re.png" alt="retweet"></button>
+                                            <button class="btn btn hover"><img class="active like" src="images/like.png" alt="like"></button>
+                                            <button class="btn btn hover"><img class="active share" src="images/share.png" alt="share"></button>
                                         </div>
                                     </div>
                                 </div>
@@ -212,10 +212,10 @@
                                         </div>
                                     </div>
                                     <div class="d-flex flex-row" style="justify-content: space-around; margin-top:10px; margin-left: 20px;">
-                                        <button class="btn btn-hover"><img class="active comment" src="images/comment.png" alt=""></button>
-                                        <button class="btn btn hover"><img class="active re" src="images/re.png" alt=""></button>
-                                        <button class="btn btn hover"><img class="active like" src="images/like.png" alt=""></button>
-                                        <button class="btn btn hover"><img class="active share" src="images/share.png" alt=""></button>
+                                        <button class="btn btn-hover"><img class="active comment" src="images/comment.png" alt="comment"></button>
+                                        <button class="btn btn hover"><img class="active re" src="images/re.png" alt="retweet"></button>
+                                        <button class="btn btn hover"><img class="active like" src="images/like.png" alt="like"></button>
+                                        <button class="btn btn hover"><img class="active share" src="images/share.png" alt="share"></button>
                                     </div>
                                 </div>
                                 <div class="card" style="border: 1px solid rgb(236, 235, 235)">
@@ -233,16 +233,16 @@
                                         <div class="content" style="margin-left:50px">
                                             <a style="text-decoration: none;" href="https://blog.ultrahuman.com/blog/5yjnsbqtdsh36t1olo4rpcuqpq0bje">
                                                 <div class="card" style="border-radius: 20px; margin-right:20px; margin-bottom: 20px">
-                                                    <img class="inverted" src="images/blog.jpg" style="border-top-left-radius:20px; border-top-right-radius:20px">
+                                                    <img class="inverted" alt="blog link" src="images/blog.jpg" style="border-top-left-radius:20px; border-top-right-radius:20px">
                                                     <h6 class="text-muted" style="font-size:small; padding-top: 10px; margin-left:10px">blog.ultrahuman.com</h6>
                                                     <h6 class="text-muted" style="margin-left:10px; padding-bottom: 10px; font-size: small;">By 2050, projections suggest that over two thords of the world population will...</h6>
                                                 </div>
                                             </a>
                                             <div class="d-flex flex-row" style="justify-content: space-around; margin-top: -20px; margin-left: -50px;">
-                                                <button class="btn btn-hover"><img class="active comment" src="images/comment.png" alt=""></button>
-                                                <button class="btn btn hover"><img class="active re" src="images/re.png" alt=""></button>
-                                                <button class="btn btn hover"><img class="active like" src="images/like.png" alt=""></button>
-                                                <button class="btn btn hover"><img class="active share" src="images/share.png" alt=""></button>
+                                                <button class="btn btn-hover"><img class="active comment" src="images/comment.png" alt="comment"></button>
+                                                <button class="btn btn hover"><img class="active re" src="images/re.png" alt="retweet"></button>
+                                                <button class="btn btn hover"><img class="active like" src="images/like.png" alt="like"></button>
+                                                <button class="btn btn hover"><img class="active share" src="images/share.png" alt="share"></button>
                                             </div>
                                         </div>
                                     </div>
@@ -254,7 +254,7 @@
                 <div class="col-lg-4 d-none d-md-none d-lg-block">
                     <div style="position: -webkit-sticky; position: sticky; top: 0;">
                         <nav class="navbar">
-                            <input class="form-control mr-sm-2 border-0" type="search" placeholder="Search Twitter" aria-label="Search" style="border-radius: 20px; padding: 20px; height: 30px; margin-left: -10px; background-color: rgb(239, 243, 244);"></form>
+                            <input class="form-control mr-sm-2 border-0" type="search" placeholder="Search Twitter" aria-label="Search" style="border-radius: 20px; padding: 20px; height: 30px; margin-left: -10px; background-color: rgb(239, 243, 244);">
                         </nav>
                         <div class="card border-0">
                             <div class="card-header border-0">What's happening</div>
@@ -269,7 +269,7 @@
                                                         <h6 class="newstext">INDvWI: India beat the West Indies by 8 runs in the second T20 match</h6>
                                                         <h6 class="text-muted" style="font-weight:400; font-size: small;">Trending with <b style="font-weight:400; font-size: small; color:rgb(0, 140, 255)">#ViratKohli, #INDvWI</b></h6>
                                                     </div>
-                                                    <div><img class="inverted" src="images/newsT1.jpg" style="width:65px; height:65px; border-radius:10px"></div>
+                                                    <div><img class="inverted" alt="news" src="images/newsT1.jpg" style="width:65px; height:65px; border-radius:10px"></div>
                                                 </div>
                                             </div>
                                         </td>
@@ -323,7 +323,7 @@
                                                         <h6 class="text-muted" style="font-size:smaller">World news • LIVE</h6>
                                                         <h6 class="newstext">Ukraine rebel leader announces 'general mobilization' in Donetsk region amid increased invasion fears</h6>
                                                     </div>
-                                                    <div><img class="inverted" src="images/newsT2.jpg" style="width:65px; height:65px; border-radius:10px"></div>
+                                                    <div><img class="inverted" alt="news" src="images/newsT2.jpg" style="width:65px; height:65px; border-radius:10px"></div>
                                                 </div>
                                             </div>
                                         </td>
@@ -345,7 +345,7 @@
                                     <tr>
                                         <td>
                                             <div class="d-flex flex-row">
-                                                <img class="inverted profileT" src="images/follow1.jpg">
+                                                <img class="inverted profileT" alt="people" src="images/follow1.jpg">
                                                 <div class="d-flex flex-column" style="margin-left:10px">
                                                     <h6 class="fName">कुशल मेहरा</h6>
                                                     <h6 class="text-muted" style="font-weight:400; margin-top:-5px">@kushal_misra</h6>
@@ -357,7 +357,7 @@
                                     <tr>
                                         <td>
                                             <div class="d-flex flex-row">
-                                                <img class="inverted profileT" src="images/follow2.jpg">
+                                                <img class="inverted profileT" alt="people" src="images/follow2.jpg">
                                                 <div class="d-flex flex-column" style="margin-left:10px">
                                                     <h6 class="fName">Liminal Spaces</h6>
                                                     <h6 class="text-muted" style="font-weight:400; margin-top:-5px">@SpaceLiminalBot</h6>
@@ -369,7 +369,7 @@
                                     <tr>
                                         <td>
                                             <div class="d-flex flex-row">
-                                                <img class="inverted profileT" src="images/follow3.jpg">
+                                                <img class="inverted profileT" alt="people" src="images/follow3.jpg">
                                                 <div class="d-flex flex-column" style="margin-left:10px">
                                                     <h6 class="fName">Aryāṃśa</h6>
                                                     <h6 class="text-muted" style="font-weight:400; margin-top:-5px">@arya_amsha</h6>

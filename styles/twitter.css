@@ -48,6 +48,7 @@ body {
     background-color: rgba(134, 187, 248, 0.562);
 }
 .sidebar{
+    display: block;
     margin-left: -36px;
     gap: 5px;
 }
@@ -149,8 +150,17 @@ body {
 .writeup{
     font-family: Helvetica, sans-serif;
     color: rgb(57, 64, 71);
-    font-size: 0.95rem;
-    
+    font-size: 0.95rem;   
+}
+.v1{
+    display: block;
+    border: 1px solid rgb(236, 235, 235);
+    border-right: none;
+    width: 0;
+    height: 100%;
+}
+.hr{
+    border: 5px solid black;
 }
 .thread{
     font-family: Helvetica, sans-serif;
@@ -202,9 +212,18 @@ body {
         margin-left: -20px;
         justify-content:space-around;
     }
+    .v1{
+        display: none;
+    }
 }
 @media all and (max-width: 420px) {
+    .sidebar{
+        display: none;
+    }
     .username{
+        display: none;
+    }
+    .tinyButtons{
         display: none;
     }
 }

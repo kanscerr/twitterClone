@@ -9,17 +9,18 @@
     <script defer src="script/login.js"></script>
 </head>
 <body class="flex">
-    <div id="error"></div>
+    <div id="error" style="margin-top: -250px;"></div>
+    <div id="error1" style="margin-top: -230px;"></div>
     <form class="flex" id="form" action="twitter.html" method="GET">
-        <div class="flex2 imgcontainer">
+        <div class="imgcontainer">
             <img style="width:300px" src="images/twitterLogo.png" alt="logo">
         </div>
         <h2 style="margin-top: -50px; font-family: Arial, Helvetica, sans-serif;">Welcome to Twitter Clone</h2>
         <div>
-            <input style="padding-left:10px" class="uname" id="uname" name="uname" type="text" placeholder="Username">
+            <input style="padding-left:10px" class="uname" id="uname" name="uname" type="text" placeholder="Username" required>
         </div>
         <div>
-            <input style="padding-left:10px" class="password" id="password" name="password" type="password" placeholder="Password">
+            <input style="padding-left:10px" class="password" id="password" name="password" type="password" placeholder="Password" required>
         </div>
         <button class="submit" type="submit">Login</button>
     </form>

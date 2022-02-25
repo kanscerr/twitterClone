@@ -1,16 +1,12 @@
-.flex{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 .body{
     background:rgb(243, 249, 255);
 }
-.imgcontainer{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.flex{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -62%);
 }
 .uname{
     margin-left: 30px;

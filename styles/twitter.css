@@ -79,6 +79,10 @@ body {
 .search{
     width: 30px;
 }
+.tweetMobile{
+    display: none;
+    margin-left: 15px;
+}
 .bottomBar{
     display: none;
     position: absolute;
@@ -221,6 +225,17 @@ body {
         display: none;
     }
     .tinyButtons{
+        display: none;
+    }
+    .tweetMobile{
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top:80vh;
+        left: 72vw;
+        position: fixed;
+    }
+    #card{
         display: none;
     }
 }

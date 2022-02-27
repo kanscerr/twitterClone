@@ -231,9 +231,9 @@ body {
         display: block;
         position: absolute;
         z-index: 1;
-        top:80vh;
-        left: 72vw;
-        position: sticky;
+        top:80%;
+        left: 72%;
+        position: fixed;
     }
     #card{
         display: none;

@@ -233,7 +233,7 @@ body {
         z-index: 1;
         top:80vh;
         left: 72vw;
-        position: fixed;
+        position: sticky;
     }
     #card{
         display: none;

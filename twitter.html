@@ -50,7 +50,7 @@
                                         <img class="profPicture inverted" src="images/swiper.jpg" alt="profile picture">
                                     </div>
                                     <form class="whatsHappening">
-                                        <input style="width:200px;" type="text" class="form border-0" placeholder="What's happening?">
+                                        <input style="width:200px;" type="text"  id="whatsHappening" class="form border-0" placeholder="What's happening?" required>
                                     </form>
                                 </div>
                                 <button class="d-flex flex-row btn" style="font-size: small; font-weight: bold; color: rgb(0, 183, 255); width:200px; margin-left: 30px;">
@@ -67,7 +67,7 @@
                                         <button class="btn" style="margin-left:-20px"><img class="tinyButtons" style="width:30px" src="images/fifth.png" alt="schedule"></button>
                                         <button class="btn" style="margin-left:-20px"><img class="tinyButtons" style="width:30px" src="images/sixth.png" alt="location"></button>
                                     </div>
-                                    <button class="btn" style="height: 40px; width: 80px; background: rgb(78, 148, 253); color: white; border-radius: 20px; right: 0; padding-top: 5px; padding-bottom: 5px; position: absolute;">Tweet</button>
+                                    <input onclick="buttonTap()" type="button" value="Tweet" id="tweetButtonTap" class="btn" style="height: 40px; width: 80px; background: rgb(78, 148, 253); color: white; border-radius: 20px; right: 0; padding-top: 5px; padding-bottom: 5px; position: absolute;">
                                 </div>
                             </div>
                             <hr>

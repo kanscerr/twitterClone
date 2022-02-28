@@ -4,6 +4,9 @@ function darkMode(){
         result.classList.toggle('invert');
     })
 }
+function tweet(){
+    document.getElementById("card").style.display= "block";
+}
 function buttonClick(){
     document.getElementById("myButton").value="Reminder set";
     document.getElementById("myButton").style.background = "linear-gradient(to right, rgb(24, 24, 24), rgb(152, 18, 241))";

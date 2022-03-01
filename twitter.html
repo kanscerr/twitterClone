@@ -21,7 +21,7 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-1 col-md-1 d-sm-none d-md-block">
+                <div class="col-lg-1 col-md-1 d-sm-none d-md-block" id="sidebar">
                     <div class="d-flex flex-row" style="position:fixed;">
                         <div class="d-flex flex-column sidebar">
                             <button class="btn "><img class="logo" src="images/twitterLogo.png" alt="logo"></button>
@@ -38,19 +38,21 @@
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-11 col-sm-12 d-block" style="padding-left: 0px; padding-right: 0px;">
-                    <div class="d-flex flex-column" style="position:relative; width: 100%;">
-                        <div class="card border-right-0 border-top-0 Home">
+                    <div class="d-flex flex-column">
+                        <div class="Home card border-0" id="home">
                             <div class="d-flex flex-row" style="justify-content: space-between;">
                                 <h5 style="font-family: Helvetica, sans-serif; font-weight: bold; margin-top: 15px; margin-left: 25px;">Home</h5>
                                 <img class="topTweets" src="images/topTweets.png" alt="top tweets">
                             </div> 
+                        </div>
+                        <div class="card border-right-0 border-top-0" id="tweets">
                             <div id="card" class="card border-0 insidecard" style="margin-left: 20px;">
                                 <div class="d-flex flex-row" style="margin-left: 15px;">
                                     <div class="timeline">
                                         <img class="profPicture inverted" src="images/swiper.jpg" alt="profile picture">
                                     </div>
                                     <form class="whatsHappening">
-                                        <input style="width:200px;" type="text"  id="whatsHappening" class="form border-0" placeholder="What's happening?" required>
+                                        <input style="width:200px;" type="text"  name="writeTweet" id="whatsHappening" class="form border-0" placeholder="What's happening?" required>
                                     </form>
                                 </div>
                                 <button class="d-flex flex-row btn" style="font-size: small; font-weight: bold; color: rgb(0, 183, 255); width:200px; margin-left: 30px;">

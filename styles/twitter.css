@@ -218,7 +218,7 @@ body {
     }
 }
 @media all and (max-width: 420px) {
-    .sidebar{
+    #sidebar{
         display: none;
     }
     .username{
@@ -237,5 +237,14 @@ body {
     }
     #card{
         display: none;
+    }
+    #home{
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        opacity: 0.97;
+    }
+    #tweets{
+        margin-top: 35px;
     }
 }
